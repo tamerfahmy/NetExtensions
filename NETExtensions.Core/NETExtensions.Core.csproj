@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>NetExtensions-Core</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Tamer Fahmy</Authors>
+    <Copyright>Tamer Fahmy</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Owners>Tamer Fhamy</Owners>
+    <Summary>A library with the core extensions and helpers methods for .Net</Summary>
+    <Title>NetExtensions Core</Title>
+    <Description>A library with the core extensions and helpers methods for .Net.</Description>
+    <ReleaseVersion>0.0.1</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+    <PackageTags>.Net, Extensions</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>
