@@ -1,4 +1,10 @@
 # Net Extensions
+![nuget downloads](https://img.shields.io/nuget/dt/NetExtensions-core.svg?color=green&label=downloads&logo=nuget)
+![Last Commit](https://img.shields.io/github/last-commit/tamerfahmy/NetExtensions.svg?logo=github)
+![Code Quality](https://img.shields.io/codacy/grade/aeba1b94ef69464882823804668d40a9.svg?logo=Codacy)
+![Build](https://img.shields.io/azure-devops/build/tamerfahmy/NetExtensions/4/master.svg?label=build)
+![Tests](https://img.shields.io/azure-devops/tests/tamerfahmy/NetExtensions/4.svg)
+
 NetExtensions an open-source cross platform set of commonly used extensions methods that is mostly needed at any project. This library is built with .Net Standard 1.0 which supports many .Net frameworks such as .Net Core, .Net Framework, Xamarin and others.
 
 The library uses the same namespace for all extensions methods where it will be much easier to use it simply explorer it by the IDE Intellisense for example Visual Studio. So no need to search or include extra namespaces at your project.
@@ -15,6 +21,6 @@ PM> Install-Package NetExtensions-Core
 ```
 
 ## Projects
-### NetExtensions-Core Project
+### NetExtensions-Core
 This project will contain the core extension methods for Primitive .Net Data Types.
 
