@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Installation
 Each project will have a separate NuGet package which allows to install only the required packages based on the requirments. NetExtensions-Core libaray will be the base which might be a prerequisite in other extension projects.
 
-You can use these set of extension methods by installing it via the below Nuget command below. 
+You can use these set of extension methods by installing it via the below Nuget command. 
 ```sh
 PM> Install-Package NetExtensions-Core
 ```
