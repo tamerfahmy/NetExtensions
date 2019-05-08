@@ -146,5 +146,16 @@ namespace System
         {
             return !number.InRange(min, max);
         }
+
+        /// <summary>
+        /// Return the next random number within this number and the maxNumber
+        /// </summary>
+        /// <param name="minNumber"></param>
+        /// <param name="maxNumber">Maximum number</param>
+        /// <returns>Random int number</returns>
+        public static int NextRandom(this int minNumber, int maxNumber)
+        {
+            return new System.Random().Next(minNumber, maxNumber);
+        }
     }
 }
