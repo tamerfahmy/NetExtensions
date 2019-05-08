@@ -1,7 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace NET.String.Test
+namespace NET.DateTimeExtension.Test
 {
     [TestClass]
     public class DateTimeExtensionsTests
@@ -30,7 +30,7 @@ namespace NET.String.Test
 
             DateTime dateTime = DateTime.Now;
 
-            Assert.IsTrue(dateTime.InRange(minDate,maxDate));
+            Assert.IsTrue(dateTime.InRange(minDate, maxDate));
         }
 
         [TestMethod]

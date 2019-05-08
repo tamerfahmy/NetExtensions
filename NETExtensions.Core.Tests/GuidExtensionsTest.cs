@@ -1,7 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace NET.String.Test
+namespace NET.GuidExtension.Test
 {
     [TestClass]
     public class GuidExtensionsTest

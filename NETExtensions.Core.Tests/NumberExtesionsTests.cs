@@ -1,7 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace NET.String.Test
+namespace NET.NumberExtesion.Test
 {
     [TestClass]
     public class NumberExtesionsTests
@@ -11,7 +11,7 @@ namespace NET.String.Test
         {
             int number = 4;
 
-            Assert.IsTrue(number.InRange(1,5));
+            Assert.IsTrue(number.InRange(1, 5));
         }
 
         [TestMethod]

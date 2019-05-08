@@ -1,7 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace NET.String.Test
+namespace NET.StringExtension.Test
 {
     [TestClass]
     public class StringExtensionsTests

@@ -1,7 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace NET.String.Test
+namespace NET.StringConversion.Test
 {
     [TestClass]
     public class StringConversionTests
